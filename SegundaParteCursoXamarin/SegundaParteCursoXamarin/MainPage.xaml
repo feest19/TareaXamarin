@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SegundaParteCursoXamarin.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <!--<Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />-->
+
+        <!--/////////////aqui esta la version solo con el StackLayout/////////////-->
+
+        <!--<Button BackgroundColor="Gray"></Button>
+        <Button BackgroundColor="Orange"></Button>
+        
+        <StackLayout Orientation="Horizontal">
+        <Button BackgroundColor="Violet"></Button>
+        <Button BackgroundColor="Brown"></Button>
+        <Button BackgroundColor="Pink"></Button>
+        <Button BackgroundColor="Green"></Button>
+
+        </StackLayout>-->
+
+
+        <!--/////////////aqui esta la version solo con el Grid/////////////-->
+
+       <!-- <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="0" Grid.Column="0" Text="hello!" BackgroundColor="Violet"/>
+            <Button Grid.Row="0" Grid.Column="1" Text="hola!" BackgroundColor="Green"/>
+            <Button Grid.Row="1" Grid.Column="0" Text="Salut!" BackgroundColor="Orange"/>
+            <Button Grid.Row="1" Grid.Column="1" Text="Hallo!" BackgroundColor="Blue"/>
+            <Button Grid.Row="2" Grid.Column="0" Text="Hej!" BackgroundColor="Brown"/>
+            <Button Grid.Row="2" Grid.Column="1" Text="Привет!" BackgroundColor="Gray"/>
+
+        </Grid>-->
+        
+
+    </StackLayout>
+
+</ContentPage>
